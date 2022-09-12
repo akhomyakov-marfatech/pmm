@@ -15,7 +15,7 @@
 // Package truncate privides strings truncation utilities.
 package truncate
 
-var maxQueryLength = 2048
+var maxQueryLength = 4096
 
 // Query limits passed query string to 2048 Unicode runes, truncating it if necessary.
 func Query(q string) (query string, truncated bool) {
